@@ -1,0 +1,18 @@
+{
+  "config": {
+    "vendor-dir": "vendor",
+    "platform": {
+      "php": "8.0",
+      "ext-pdo": "0"
+    }
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "php": "8.0",
+    "ext-pdo": "*"
+  }
+}

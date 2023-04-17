@@ -1,0 +1,10 @@
+.idea/*
+app/vendor/*
+ship/*
+
+# All env files in /deployment/env except when starting with example*
+/deployment/env/*.env
+!/deployment/env/example*.env
+
+# No log files
+/logs/*
